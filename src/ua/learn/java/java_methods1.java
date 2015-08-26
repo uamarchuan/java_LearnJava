@@ -10,6 +10,7 @@ public class java_methods1 {
 		
 		System.out.println("Enter name of first gf here: ");
 		String name = scan.nextLine();
+		scan.close();
 		
 		mObject.setGirlName(name);
 		mObject.saing();
