@@ -11,6 +11,7 @@ public class java_calculator {
 		fnum = scan.nextDouble();
 		System.out.println("Enter second number: ");
 		snum = scan.nextDouble();
+		scan.close();
 		answer = fnum + snum;
 		
 		System.out.println("Summ is: "+answer);
